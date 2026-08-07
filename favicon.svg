@@ -1,5 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title>Aldy Rosell</title>
-  <rect width="64" height="64" rx="14" fill="#111113"/>
-  <text x="32" y="42" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" text-anchor="middle">A</text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Written by Treer (gitlab.com/Treer) -->
+<svg 
+	version="1.1" 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	width="600" 
+	height="600"
+	fill="white">
+
+  <title>Abstract user icon</title>
+
+  <defs>
+    <clipPath id="circular-border">
+      <circle cx="300" cy="300" r="250" />
+    </clipPath>
+  </defs>
+  
+  <circle cx="300" cy="300" r="280" fill="black" />
+  <circle cx="300" cy="230" r="100" />
+  <circle cx="300" cy="550" r="190" clip-path="url(#circular-border)" />
 </svg>
