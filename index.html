@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="assets/app-OF3yXPNr.css">
+    <link rel="stylesheet" href="assets/app-BBgJd9oY.css">
     <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,7 +9,7 @@
         name="description"
         content="A full-stack developer building scalable web applications with Laravel, React, and Next.js."
     />
-    <meta name="theme-color" content="#fafafa" />
+    <meta name="theme-color" content="#f4f4f4" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="favicon.svg" />
     <link rel="canonical" href="https://aldyrosell.dev/" />
@@ -40,108 +40,118 @@
         >Skip to content</a
     >
 
-    <header class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4 xs:py-5 md:px-8 md:py-7">
-    <a href="#" class="focus-soft text-[15px] font-medium text-ink">Aldy Rosell</a>
-    <a
-        href="mailto:hello@aldyrosell.dev"
-        class="focus-soft font-mono text-[13px] text-mute underline decoration-line underline-offset-4 transition hover:text-ink hover:decoration-ink"
-    >
-        hello@aldyrosell.dev
-    </a>
+    <header class="site-nav">
+    <div class="site-nav-inner">
+        <a href="#" class="focus-soft site-nav-brand">Aldy Rosell</a>
+
+        
+        <nav class="site-nav-links" aria-label="Sections">
+            <a href="#work" class="focus-soft site-nav-link">Work</a>
+            <a href="#skills" class="focus-soft site-nav-link">Skills</a>
+            <a href="#process" class="focus-soft site-nav-link">Process</a>
+            <a href="mailto:hello@aldyrosell.dev" class="focus-soft site-nav-cta">Say hello</a>
+        </nav>
+    </div>
 </header>
 
     <main id="main">
-        <section class="mx-auto max-w-5xl px-6 pb-6 pt-4 xs:pb-10 xs:pt-7 md:px-8 md:pb-32 md:pt-20">
-    <div class="reveal">
-        <div class="grid items-center gap-4 xs:gap-6 md:grid-cols-[1.15fr_0.85fr] md:gap-14">
-            <div class="text-center md:text-left">
-                <h1
-                    class="text-2xl font-semibold leading-[1.14] tracking-[-0.03em] text-ink xs:text-3xl xs:leading-[1.18] sm:text-4xl lg:text-[2.6rem]"
-                >
-                    <span class="block">Hi, I'm Aldy Rosell.</span>
-                    
-                    <span class="mt-1 block"
-                        >Full-Stack Developer Building Scalable Web Applications
-                        <span class="block min-h-[1.25em] whitespace-nowrap sm:inline sm:min-h-0"
-                            >with
-                            <span class="text-accent"
-                                ><span data-typing data-typing-words='["Laravel", "React", "Next.js"]'>Laravel</span
-                                ><span class="typing-caret" aria-hidden="true"></span></span></span
-                    ></span>
-                </h1>
-
-                <p class="mx-auto mt-4 max-w-lg text-[15px] leading-7 text-mute xs:mt-5 xs:text-base sm:text-[17px] sm:leading-8 md:mx-0">I'm a Full-Stack Developer specializing in Laravel, React, and Next.js. I help startups and businesses turn ideas into secure, scalable web applications - from API development and database architecture to cloud deployment.</p>
-
-                <dl class="mx-auto mt-4 grid max-w-lg grid-cols-2 divide-x divide-line border-y border-line xs:mt-5 md:mx-0">
-                    
-                    <div class="px-3 py-2 xs:py-2.5 sm:px-4 sm:py-3 md:pl-0 md:pr-4">
-                        <dt class="text-[11px] font-medium text-mute sm:text-xs">Years of experience</dt>
-                        <dd class="mt-0.5 text-lg font-semibold tracking-[-0.02em] text-ink xs:mt-1 xs:text-xl">
-                            8+
-                        </dd>
-                    </div>
-                    <div class="px-3 py-2 xs:py-2.5 sm:px-4 sm:py-3 md:pl-4 md:pr-0">
-                        <dt class="text-[11px] font-medium text-mute sm:text-xs">Major projects delivered</dt>
-                        <dd class="mt-0.5 text-lg font-semibold tracking-[-0.02em] text-ink xs:mt-1 xs:text-xl">
-                            13+
-                        </dd>
-                    </div>
-                </dl>
-
-                <div class="mt-4 flex flex-wrap items-center justify-center gap-2 xs:mt-5 sm:gap-3 md:justify-start">
-                    <a
-                        href="#work"
-                        class="focus-soft inline-flex min-h-9 items-center rounded-full bg-ink px-3.5 text-[13px] font-medium sm:px-4 text-paper transition hover:bg-accent"
-                    >
-                        View work
-                    </a>
-                    <a
-                        href="#skills"
-                        class="focus-soft inline-flex min-h-9 items-center rounded-full border border-line px-3.5 text-[13px] font-medium sm:px-4 text-ink transition hover:border-ink"
-                    >
-                        View skills
-                    </a>
-                </div>
-            </div>
-
-            <figure class="hero-portrait order-first md:order-none">
-                <div class="portrait-frame" aria-hidden="true"></div>
-                <div class="portrait-shell">
-                    <img
-                        src="images/profile/profile.png"
+        <section class="hero">
+    
+    <div class="hero-inner">
+        <img
+            class="hero-photo"
+            src="images/profile/profile-336.webp"
+                            srcset="images/profile/profile-168.webp 168w, images/profile/profile-336.webp 336w, images/profile/profile-504.webp 504w"
+                
+                sizes="168px"
                         alt="Aldy Rosell, full-stack web developer"
-                        width="720"
-                        height="860"
-                        class="portrait-image"
-                    />
-                </div>
-            </figure>
+            width="336"
+            height="336"
+            fetchpriority="high"
+        />
+
+        <p class="hero-kicker">Hi, I'm Aldy Rosell — Full-Stack Developer</p>
+
+        <h1 class="hero-headline">I turn ideas into secure, <span>scalable</span> web applications.</h1>
+
+        <p class="hero-lede">Specializing in Laravel, React, and Next.js, I help startups and businesses turn ideas into secure, scalable web applications — from API development and database architecture to cloud deployment.</p>
+
+        <div class="hero-actions">
+            <a href="#work" class="focus-soft hero-btn hero-btn-primary">View my work</a>
+            <a href="#skills" class="focus-soft hero-btn hero-btn-secondary">View my skills</a>
         </div>
+
+        
+        <dl class="hero-stats">
+            <div>
+                <dt>Years of experience</dt>
+                <dd>8+</dd>
+            </div>
+            <div>
+                <dt>Major projects delivered</dt>
+                <dd>13+</dd>
+            </div>
+            <div>
+                <dt>Building for the web since</dt>
+                <dd>2015</dd>
+            </div>
+        </dl>
     </div>
 </section>
-        <section id="work" class="mx-auto max-w-5xl scroll-mt-16 px-6 pt-8 md:px-8 md:pt-0">
+        <section id="work" class="mx-auto max-w-5xl px-6 pt-8 md:px-8 md:pt-6">
     <div class="space-y-12 md:space-y-16">
-        <section class="reveal">
-            <div class="project-group-header">
-                <div>
-                    <h2>Private Clients</h2>
-                    <p class="project-group-period">Freelance Work</p>
+                    <section class="reveal">
+                <div class="project-group-header">
+                    <div class="project-group-identity">
+                        <h2>Private Clients</h2>
+                                                    <span class="project-group-kind">Freelance</span>
+                                            </div>
+                    
+                    <p class="project-group-meta">
+                        Sep 2024 — Present · Lead / Frontend / Web Developer
+                    </p>
                 </div>
-                <div class="project-group-meta">
-                    <p class="font-mono">Web Developer / Frontend Developer</p>
-                                            <p class="project-group-years font-mono">September 2024 - Present</p>
-                                    </div>
-            </div>
-            <ul class="project-grid">
-                                    <li>
+                <ul class="project-grid">
+                                            <li>
     <article
         class="project-card focus-soft"
         tabindex="0"
         role="button"
         data-project-open
-        data-project-title="Shopify Admin Panel"
+        data-project-title="In-line Forwarder"
+        data-project-role="Lead Developer"
+        data-project-company="Private Clients"
+        data-project-summary="Freight forwarding and customs brokerage platform for domestic and international shipping."
+        data-project-involvement='["Leading the development team.","Task delegation.","Implementing Jinio US-to-Philippines package forwarding into the existing site."]'
+        data-project-metric="Freight forwarding platform"
+        data-project-sale-note=""
+        data-project-personal="false"
+        data-project-accent="blue"
+        data-project-stack='["CodeIgniter","PHP"]'
+        data-project-screenshots='[]'
+        data-project-website="https://example.com"
+    >
+        <div class="project-card-media">
+                            <span aria-hidden="true">I</span>
+                    </div>
+        <div class="project-card-body">
+            <h4>In-line Forwarder</h4>
+            <p class="project-card-summary">Freight forwarding and customs brokerage platform for domestic and international shipping.</p>
+            
+            <p class="project-card-meta">Lead Developer · CodeIgniter, PHP</p>
+        </div>
+    </article>
+</li>
+                                            <li>
+    <article
+        class="project-card focus-soft"
+        tabindex="0"
+        role="button"
+        data-project-open
+        data-project-title="AntiFiller Admin"
         data-project-role="Web Developer"
-        data-project-summary="A custom admin panel designed to streamline Shopify store content management for creating, updating, and managing store pages."
+        data-project-company="Private Clients"
+        data-project-summary="Custom admin panel to streamline Shopify store content."
         data-project-involvement='["Developed the custom admin panel.","Shopify API integration.","Backend APIs.","Database architecture.","Deployment."]'
         data-project-metric="Store Content Manager"
         data-project-sale-note=""
@@ -156,20 +166,20 @@
                     src="images/projects-thumbs/shopify-admin-panel/featured-800.webp"
                                             srcset="images/projects-thumbs/shopify-admin-panel/featured-200.webp 200w, images/projects-thumbs/shopify-admin-panel/featured-400.webp 400w, images/projects-thumbs/shopify-admin-panel/featured-800.webp 800w"
                         sizes="(max-width: 639px) 92px, (max-width: 1023px) 50vw, 304px"
-                                        alt="Shopify Admin Panel preview"
+                                        alt="AntiFiller Admin preview"
                     loading="lazy"
                     decoding="async"
                 />
                     </div>
         <div class="project-card-body">
-            <p class="project-card-role font-mono">Web Developer</p>
-            <h4>Shopify Admin Panel</h4>
-            <p class="project-card-summary">A custom admin panel designed to streamline Shopify store content management for creating, updating, and managing store pages.</p>
-            <p class="project-card-stack font-mono">Next.js, MySQL, Shopify API</p>
+            <h4>AntiFiller Admin</h4>
+            <p class="project-card-summary">Custom admin panel to streamline Shopify store content.</p>
+            
+            <p class="project-card-meta">Web Developer · Next.js, MySQL, Shopify API</p>
         </div>
     </article>
 </li>
-                                    <li>
+                                            <li>
     <article
         class="project-card focus-soft"
         tabindex="0"
@@ -177,7 +187,8 @@
         data-project-open
         data-project-title="QuickFill"
         data-project-role="Frontend Developer"
-        data-project-summary="Chrome extension that speeds up email workflows with predefined responses, text templates, and custom shortcuts."
+        data-project-company="Private Clients"
+        data-project-summary="Chrome extension speeding up email workflows with predefined responses."
         data-project-involvement='["Developed the Chrome extension.","Collaborated with the development team to enhance its user interface and frontend functionality."]'
         data-project-metric="Text Expansion Tool"
         data-project-sale-note=""
@@ -198,14 +209,14 @@
                 />
                     </div>
         <div class="project-card-body">
-            <p class="project-card-role font-mono">Frontend Developer</p>
             <h4>QuickFill</h4>
-            <p class="project-card-summary">Chrome extension that speeds up email workflows with predefined responses, text templates, and custom shortcuts.</p>
-            <p class="project-card-stack font-mono">ReactJS, MongoDB, Chrome Extension</p>
+            <p class="project-card-summary">Chrome extension speeding up email workflows with predefined responses.</p>
+            
+            <p class="project-card-meta">Frontend Developer · ReactJS, MongoDB, Chrome Extension</p>
         </div>
     </article>
 </li>
-                                    <li>
+                                            <li>
     <article
         class="project-card focus-soft"
         tabindex="0"
@@ -213,7 +224,8 @@
         data-project-open
         data-project-title="DNS Domain Lookup"
         data-project-role="Frontend Developer"
-        data-project-summary="A web tool for looking up domain DNS records."
+        data-project-company="Private Clients"
+        data-project-summary="Web tool for looking up domain DNS records."
         data-project-involvement='["Implemented UI fixes and frontend improvements for the domain DNS lookup tool."]'
         data-project-metric="DNS Lookup Tool"
         data-project-sale-note=""
@@ -234,26 +246,25 @@
                 />
                     </div>
         <div class="project-card-body">
-            <p class="project-card-role font-mono">Frontend Developer</p>
             <h4>DNS Domain Lookup</h4>
-            <p class="project-card-summary">A web tool for looking up domain DNS records.</p>
-            <p class="project-card-stack font-mono">Next.js</p>
+            <p class="project-card-summary">Web tool for looking up domain DNS records.</p>
+            
+            <p class="project-card-meta">Frontend Developer · Next.js</p>
         </div>
     </article>
 </li>
-                            </ul>
-        </section>
-
+                                    </ul>
+            </section>
                     <section class="reveal">
                 <div class="project-group-header">
-                    <div>
-                        <h2>Hivelabs Technologies Corporation</h2>
-                        <p class="project-group-period">Professional Work</p>
-                    </div>
-                    <div class="project-group-meta">
-                        <p class="font-mono">Lead Developer / Frontend Developer / DevOps</p>
-                                                    <p class="project-group-years font-mono">March 2019 - October 2023</p>
+                    <div class="project-group-identity">
+                        <h2>Hivelabs Technologies</h2>
+                                                    <span class="project-group-kind">Professional</span>
                                             </div>
+                    
+                    <p class="project-group-meta">
+                        Mar 2019 — Oct 2023 · Lead / Frontend / DevOps
+                    </p>
                 </div>
                 <ul class="project-grid">
                                             <li>
@@ -264,7 +275,8 @@
         data-project-open
         data-project-title="BiboKonek App"
         data-project-role="Lead Developer"
-        data-project-summary="A subscription-based AI chat app for seamless communication and connectivity."
+        data-project-company="Hivelabs Technologies"
+        data-project-summary="Subscription-based AI chat app for seamless communication."
         data-project-involvement='["Led a cross-functional team.","Spearheaded the development of the marketing website, API, and database design.","Task allocation.","Server\/domain setup."]'
         data-project-metric="AI chat app"
         data-project-sale-note=""
@@ -285,10 +297,10 @@
                 />
                     </div>
         <div class="project-card-body">
-            <p class="project-card-role font-mono">Lead Developer</p>
             <h4>BiboKonek App</h4>
-            <p class="project-card-summary">A subscription-based AI chat app for seamless communication and connectivity.</p>
-            <p class="project-card-stack font-mono">Laravel, PHP, MySQL</p>
+            <p class="project-card-summary">Subscription-based AI chat app for seamless communication.</p>
+            
+            <p class="project-card-meta">Lead Developer · Laravel, PHP, MySQL</p>
         </div>
     </article>
 </li>
@@ -300,7 +312,8 @@
         data-project-open
         data-project-title="Calamian Travel and Tours"
         data-project-role="Lead Developer"
-        data-project-summary="An all-in-one booking platform with integrated tour management for streamlined travel."
+        data-project-company="Hivelabs Technologies"
+        data-project-summary="All-in-one booking platform with integrated tour management."
         data-project-involvement='["Led the web development team.","Spearheaded the development of booking and admin websites, APIs, and database architecture.","Task distribution.","Server\/domain configuration."]'
         data-project-metric="Booking platform"
         data-project-sale-note=""
@@ -321,10 +334,10 @@
                 />
                     </div>
         <div class="project-card-body">
-            <p class="project-card-role font-mono">Lead Developer</p>
             <h4>Calamian Travel and Tours</h4>
-            <p class="project-card-summary">An all-in-one booking platform with integrated tour management for streamlined travel.</p>
-            <p class="project-card-stack font-mono">Laravel, PHP, MySQL</p>
+            <p class="project-card-summary">All-in-one booking platform with integrated tour management.</p>
+            
+            <p class="project-card-meta">Lead Developer · Laravel, PHP, MySQL</p>
         </div>
     </article>
 </li>
@@ -336,7 +349,8 @@
         data-project-open
         data-project-title="GreenChoyce"
         data-project-role="Lead Developer"
-        data-project-summary="An MLM platform promoting eco-friendly products."
+        data-project-company="Hivelabs Technologies"
+        data-project-summary="MLM platform promoting eco-friendly products."
         data-project-involvement='["Led the web development team.","Spearheaded the development of gaming, raffle, and scratch card websites and APIs.","Enhanced the MLM site.","Server\/domain deployment."]'
         data-project-metric="MLM platform"
         data-project-sale-note=""
@@ -357,10 +371,10 @@
                 />
                     </div>
         <div class="project-card-body">
-            <p class="project-card-role font-mono">Lead Developer</p>
             <h4>GreenChoyce</h4>
-            <p class="project-card-summary">An MLM platform promoting eco-friendly products.</p>
-            <p class="project-card-stack font-mono">Laravel, PHP, MySQL</p>
+            <p class="project-card-summary">MLM platform promoting eco-friendly products.</p>
+            
+            <p class="project-card-meta">Lead Developer · Laravel, PHP, MySQL</p>
         </div>
     </article>
 </li>
@@ -372,7 +386,8 @@
         data-project-open
         data-project-title="Lit.it Short Video App"
         data-project-role="DevOps"
-        data-project-summary="A short video platform with cryptocurrency-based earning."
+        data-project-company="Hivelabs Technologies"
+        data-project-summary="Short video platform with cryptocurrency-based earning."
         data-project-involvement='["Led a cross-functional team.","Spearheaded enhancements to server infrastructure.","Significantly improved system performance and reliability."]'
         data-project-metric="Short video app"
         data-project-sale-note=""
@@ -393,10 +408,10 @@
                 />
                     </div>
         <div class="project-card-body">
-            <p class="project-card-role font-mono">DevOps</p>
             <h4>Lit.it Short Video App</h4>
-            <p class="project-card-summary">A short video platform with cryptocurrency-based earning.</p>
-            <p class="project-card-stack font-mono">Terraform, Kubernetes</p>
+            <p class="project-card-summary">Short video platform with cryptocurrency-based earning.</p>
+            
+            <p class="project-card-meta">DevOps · Terraform, Kubernetes</p>
         </div>
     </article>
 </li>
@@ -408,7 +423,8 @@
         data-project-open
         data-project-title="Pudo Express Delivery"
         data-project-role="Lead Developer"
-        data-project-summary="A dynamic courier app prioritizing delivery efficiency and reliability."
+        data-project-company="Hivelabs Technologies"
+        data-project-summary="Dynamic courier app prioritizing delivery efficiency."
         data-project-involvement='["Led a cross-functional team.","Spearheaded the development of the admin website, APIs, third-party integrations, and database architecture.","Task delegation.","Server\/domain configuration."]'
         data-project-metric="Courier app"
         data-project-sale-note=""
@@ -429,10 +445,10 @@
                 />
                     </div>
         <div class="project-card-body">
-            <p class="project-card-role font-mono">Lead Developer</p>
             <h4>Pudo Express Delivery</h4>
-            <p class="project-card-summary">A dynamic courier app prioritizing delivery efficiency and reliability.</p>
-            <p class="project-card-stack font-mono">Laravel, PHP, Lumen, MySQL, Firebase</p>
+            <p class="project-card-summary">Dynamic courier app prioritizing delivery efficiency.</p>
+            
+            <p class="project-card-meta">Lead Developer · Laravel, PHP, Lumen, MySQL, Firebase</p>
         </div>
     </article>
 </li>
@@ -442,9 +458,10 @@
         tabindex="0"
         role="button"
         data-project-open
-        data-project-title="U-Coin - Unilever&#039;s Reward Program"
+        data-project-title="U-Coin Reward Program"
         data-project-role="Lead Developer"
-        data-project-summary="A redemption rewards platform offering incentives for Unilever product purchases."
+        data-project-company="Hivelabs Technologies"
+        data-project-summary="Redemption rewards platform for Unilever products."
         data-project-involvement='["Led the web development team.","Spearheaded the development of the rewards website, APIs, and database architecture.","Task allocation.","Server setup."]'
         data-project-metric="Rewards platform"
         data-project-sale-note=""
@@ -459,16 +476,16 @@
                     src="images/projects-thumbs/ucoin/featured-800.webp"
                                             srcset="images/projects-thumbs/ucoin/featured-200.webp 200w, images/projects-thumbs/ucoin/featured-400.webp 400w, images/projects-thumbs/ucoin/featured-800.webp 800w"
                         sizes="(max-width: 639px) 92px, (max-width: 1023px) 50vw, 304px"
-                                        alt="U-Coin - Unilever&#039;s Reward Program preview"
+                                        alt="U-Coin Reward Program preview"
                     loading="lazy"
                     decoding="async"
                 />
                     </div>
         <div class="project-card-body">
-            <p class="project-card-role font-mono">Lead Developer</p>
-            <h4>U-Coin - Unilever&#039;s Reward Program</h4>
-            <p class="project-card-summary">A redemption rewards platform offering incentives for Unilever product purchases.</p>
-            <p class="project-card-stack font-mono">Laravel, PHP, WordPress, MySQL</p>
+            <h4>U-Coin Reward Program</h4>
+            <p class="project-card-summary">Redemption rewards platform for Unilever products.</p>
+            
+            <p class="project-card-meta">Lead Developer · Laravel, PHP, WordPress, MySQL</p>
         </div>
     </article>
 </li>
@@ -480,7 +497,8 @@
         data-project-open
         data-project-title="DeliRush Delivery"
         data-project-role="Lead Developer"
-        data-project-summary="A multi-service super app spanning FoodRush, SendRush parcel delivery, GroceryRush, and ShopperRush."
+        data-project-company="Hivelabs Technologies"
+        data-project-summary="Multi-service super app: FoodRush, SendRush, GroceryRush, ShopperRush."
         data-project-involvement='["Led a cross-functional team in developing the DeliRush super app.","Expanded the original food-delivery service into FoodRush, SendRush parcel delivery, GroceryRush, and ShopperRush.","Spearheaded the development of the admin website, APIs, third-party integrations, and database architecture.","Task delegation.","Server\/domain deployment."]'
         data-project-metric="Super app"
         data-project-sale-note=""
@@ -501,10 +519,10 @@
                 />
                     </div>
         <div class="project-card-body">
-            <p class="project-card-role font-mono">Lead Developer</p>
             <h4>DeliRush Delivery</h4>
-            <p class="project-card-summary">A multi-service super app spanning FoodRush, SendRush parcel delivery, GroceryRush, and ShopperRush.</p>
-            <p class="project-card-stack font-mono">Laravel, PHP, Lumen, MySQL</p>
+            <p class="project-card-summary">Multi-service super app: FoodRush, SendRush, GroceryRush, ShopperRush.</p>
+            
+            <p class="project-card-meta">Lead Developer · Laravel, PHP, Lumen, MySQL</p>
         </div>
     </article>
 </li>
@@ -516,7 +534,8 @@
         data-project-open
         data-project-title="Qoneq Smart Conference"
         data-project-role="Frontend Developer"
-        data-project-summary="A customized video conferencing platform powered by Jitsi Meet."
+        data-project-company="Hivelabs Technologies"
+        data-project-summary="Customized video conferencing platform powered by Jitsi Meet."
         data-project-involvement='["Led the development of the conference website.","Led the development of the desktop application."]'
         data-project-metric="Conference app"
         data-project-sale-note=""
@@ -537,10 +556,10 @@
                 />
                     </div>
         <div class="project-card-body">
-            <p class="project-card-role font-mono">Frontend Developer</p>
             <h4>Qoneq Smart Conference</h4>
-            <p class="project-card-summary">A customized video conferencing platform powered by Jitsi Meet.</p>
-            <p class="project-card-stack font-mono">ReactJS, JavaScript</p>
+            <p class="project-card-summary">Customized video conferencing platform powered by Jitsi Meet.</p>
+            
+            <p class="project-card-meta">Frontend Developer · ReactJS, JavaScript</p>
         </div>
     </article>
 </li>
@@ -552,6 +571,7 @@
         data-project-open
         data-project-title="ChatSauce App"
         data-project-role="Frontend Developer"
+        data-project-company="Hivelabs Technologies"
         data-project-summary="An all-in-one messaging platform."
         data-project-involvement='["Led the development of the chat website.","Led the development of the desktop application."]'
         data-project-metric="Messaging app"
@@ -573,10 +593,10 @@
                 />
                     </div>
         <div class="project-card-body">
-            <p class="project-card-role font-mono">Frontend Developer</p>
             <h4>ChatSauce App</h4>
             <p class="project-card-summary">An all-in-one messaging platform.</p>
-            <p class="project-card-stack font-mono">JavaScript, Electron</p>
+            
+            <p class="project-card-meta">Frontend Developer · JavaScript, Electron</p>
         </div>
     </article>
 </li>
@@ -584,14 +604,14 @@
             </section>
                     <section class="reveal">
                 <div class="project-group-header">
-                    <div>
+                    <div class="project-group-identity">
                         <h2>Daniel Merchandising</h2>
-                        <p class="project-group-period">Professional Work</p>
-                    </div>
-                    <div class="project-group-meta">
-                        <p class="font-mono">Web Developer</p>
-                                                    <p class="project-group-years font-mono">May 2015 - December 2016</p>
+                                                    <span class="project-group-kind">Professional</span>
                                             </div>
+                    
+                    <p class="project-group-meta">
+                        May 2015 — Dec 2016 · Web Developer
+                    </p>
                 </div>
                 <ul class="project-grid">
                                             <li>
@@ -602,7 +622,8 @@
         data-project-open
         data-project-title="E-commerce Website"
         data-project-role="Web Developer"
-        data-project-summary="An online retail hub facilitating seamless transactions."
+        data-project-company="Daniel Merchandising"
+        data-project-summary="Online retail hub facilitating seamless transactions."
         data-project-involvement='["Led the development of the e-commerce website."]'
         data-project-metric="Retail website"
         data-project-sale-note=""
@@ -616,10 +637,10 @@
                             <span aria-hidden="true">E</span>
                     </div>
         <div class="project-card-body">
-            <p class="project-card-role font-mono">Web Developer</p>
             <h4>E-commerce Website</h4>
-            <p class="project-card-summary">An online retail hub facilitating seamless transactions.</p>
-            <p class="project-card-stack font-mono">C#, ASP.NET, MS SQL Server</p>
+            <p class="project-card-summary">Online retail hub facilitating seamless transactions.</p>
+            
+            <p class="project-card-meta">Web Developer · C#, ASP.NET, MS SQL Server</p>
         </div>
     </article>
 </li>
@@ -629,9 +650,10 @@
         tabindex="0"
         role="button"
         data-project-open
-        data-project-title="Online Sale Monitoring Website"
+        data-project-title="Online Sales Monitoring"
         data-project-role="Web Developer"
-        data-project-summary="An internal website offering sales insights and analytics for the Danjon Marketing sales team."
+        data-project-company="Daniel Merchandising"
+        data-project-summary="Internal site with sales insights and analytics."
         data-project-involvement='["Led the development of the sales monitoring website."]'
         data-project-metric="Sales analytics"
         data-project-sale-note=""
@@ -645,423 +667,452 @@
                             <span aria-hidden="true">O</span>
                     </div>
         <div class="project-card-body">
-            <p class="project-card-role font-mono">Web Developer</p>
-            <h4>Online Sale Monitoring Website</h4>
-            <p class="project-card-summary">An internal website offering sales insights and analytics for the Danjon Marketing sales team.</p>
-            <p class="project-card-stack font-mono">C#, ASP.NET, MS SQL Server</p>
+            <h4>Online Sales Monitoring</h4>
+            <p class="project-card-summary">Internal site with sales insights and analytics.</p>
+            
+            <p class="project-card-meta">Web Developer · C#, ASP.NET, MS SQL Server</p>
         </div>
     </article>
 </li>
                                     </ul>
             </section>
-        
             </div>
 </section>
         <section class="mx-auto max-w-5xl px-6 pt-12 xs:pt-14 md:px-8 md:pt-16">
-    <div id="skills" class="reveal scroll-mt-8 border-t border-line pt-8 xs:pt-10">
-        <h2 class="text-lg font-semibold text-ink xs:text-xl">Skills</h2>
+    <div id="skills" class="reveal">
+        <div class="rounded-[22px] bg-white p-6 shadow-[0_2px_10px_rgba(43,38,34,0.06)] xs:p-8 md:p-10">
+            <h2 class="font-display text-xl font-bold text-ink xs:text-2xl md:text-[2rem]">Skills</h2>
 
-        <div class="mt-5 space-y-5 xs:mt-7 xs:space-y-6">
-                            <div>
-                    <h3 class="font-mono text-[13px] text-mute">Backend</h3>
-                    <ul class="mt-2.5 flex flex-wrap gap-1.5 xs:mt-3 xs:gap-2 sm:gap-2.5">
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/laravel.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                Laravel
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/codeigniter.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                CodeIgniter
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/php.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                PHP
-                            </li>
-                                            </ul>
-                </div>
-                            <div>
-                    <h3 class="font-mono text-[13px] text-mute">Frontend</h3>
-                    <ul class="mt-2.5 flex flex-wrap gap-1.5 xs:mt-3 xs:gap-2 sm:gap-2.5">
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/react.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                ReactJS
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/nextdotjs.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                Next.js
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/javascript.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                JavaScript
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/typescript.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                TypeScript
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/bootstrap.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                Bootstrap
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/tailwindcss.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                Tailwind
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/mui.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                MaterialUI
-                            </li>
-                                            </ul>
-                </div>
-                            <div>
-                    <h3 class="font-mono text-[13px] text-mute">Database</h3>
-                    <ul class="mt-2.5 flex flex-wrap gap-1.5 xs:mt-3 xs:gap-2 sm:gap-2.5">
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/mysql.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                MySQL
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/mongodb.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                MongoDB
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/firebase.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                Firebase
-                            </li>
-                                            </ul>
-                </div>
-                            <div>
-                    <h3 class="font-mono text-[13px] text-mute">Version Control</h3>
-                    <ul class="mt-2.5 flex flex-wrap gap-1.5 xs:mt-3 xs:gap-2 sm:gap-2.5">
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/git.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                Git
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/github.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                GitHub
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/bitbucket.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                Bitbucket
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/gitlab.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                GitLab
-                            </li>
-                                            </ul>
-                </div>
-                            <div>
-                    <h3 class="font-mono text-[13px] text-mute">Cloud Services</h3>
-                    <ul class="mt-2.5 flex flex-wrap gap-1.5 xs:mt-3 xs:gap-2 sm:gap-2.5">
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/aws.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                AWS
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/digitalocean.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                DigitalOcean
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/linode.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                Linode
-                            </li>
-                                            </ul>
-                </div>
-                            <div>
-                    <h3 class="font-mono text-[13px] text-mute">Project Management</h3>
-                    <ul class="mt-2.5 flex flex-wrap gap-1.5 xs:mt-3 xs:gap-2 sm:gap-2.5">
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/trello.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                Trello
-                            </li>
-                                                    <li
-                                class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-white px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[13px]"
-                            >
-                                <img
-                                    src="images/skills/jira.svg"
-                                    alt=""
-                                    width="18"
-                                    height="18"
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                    class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
-                                    style="--icon-scale: 1"
-                                />
-                                Jira
-                            </li>
-                                            </ul>
-                </div>
+            <div class="stagger mt-5 xs:mt-7">
+                                    
+                    <div class="grid gap-2 py-2.5 md:grid-cols-[180px_1fr] md:items-center md:gap-4 lg:grid-cols-[220px_1fr]">
+                        <h3 class="text-[13px] font-semibold text-mute xs:text-[15px]">Backend</h3>
+                        <ul class="flex flex-wrap gap-1.5 xs:gap-2">
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/laravel.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    Laravel
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/codeigniter.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    CodeIgniter
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/php.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    PHP
+                                </li>
+                                                    </ul>
                     </div>
+                                    
+                    <div class="grid gap-2 py-2.5 md:grid-cols-[180px_1fr] md:items-center md:gap-4 lg:grid-cols-[220px_1fr]">
+                        <h3 class="text-[13px] font-semibold text-mute xs:text-[15px]">Frontend</h3>
+                        <ul class="flex flex-wrap gap-1.5 xs:gap-2">
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/react.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    ReactJS
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/nextdotjs.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    Next.js
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/javascript.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    JavaScript
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/typescript.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    TypeScript
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/bootstrap.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    Bootstrap
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/tailwindcss.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    Tailwind
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/mui.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    MaterialUI
+                                </li>
+                                                    </ul>
+                    </div>
+                                    
+                    <div class="grid gap-2 py-2.5 md:grid-cols-[180px_1fr] md:items-center md:gap-4 lg:grid-cols-[220px_1fr]">
+                        <h3 class="text-[13px] font-semibold text-mute xs:text-[15px]">Database</h3>
+                        <ul class="flex flex-wrap gap-1.5 xs:gap-2">
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/mysql.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    MySQL
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/mongodb.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    MongoDB
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/firebase.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    Firebase
+                                </li>
+                                                    </ul>
+                    </div>
+                                    
+                    <div class="grid gap-2 py-2.5 md:grid-cols-[180px_1fr] md:items-center md:gap-4 lg:grid-cols-[220px_1fr]">
+                        <h3 class="text-[13px] font-semibold text-mute xs:text-[15px]">Version Control</h3>
+                        <ul class="flex flex-wrap gap-1.5 xs:gap-2">
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/git.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    Git
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/github.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    GitHub
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/bitbucket.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    Bitbucket
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/gitlab.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    GitLab
+                                </li>
+                                                    </ul>
+                    </div>
+                                    
+                    <div class="grid gap-2 py-2.5 md:grid-cols-[180px_1fr] md:items-center md:gap-4 lg:grid-cols-[220px_1fr]">
+                        <h3 class="text-[13px] font-semibold text-mute xs:text-[15px]">Cloud Services</h3>
+                        <ul class="flex flex-wrap gap-1.5 xs:gap-2">
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/aws.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    AWS
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/digitalocean.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    DigitalOcean
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/linode.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    Linode
+                                </li>
+                                                    </ul>
+                    </div>
+                                    
+                    <div class="grid gap-2 py-2.5 md:grid-cols-[180px_1fr] md:items-center md:gap-4 lg:grid-cols-[220px_1fr]">
+                        <h3 class="text-[13px] font-semibold text-mute xs:text-[15px]">Project Management</h3>
+                        <ul class="flex flex-wrap gap-1.5 xs:gap-2">
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/trello.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    Trello
+                                </li>
+                                                            <li
+                                    class="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-paper px-3 text-xs font-medium text-ink xs:gap-2 sm:min-h-9 sm:px-4 sm:text-[15px]"
+                                >
+                                    <img
+                                        src="images/skills/jira.svg"
+                                        alt=""
+                                        width="18"
+                                        height="18"
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                        class="skill-icon size-3 xs:size-3.5 sm:size-[18px]"
+                                        style="--icon-scale: 1"
+                                    />
+                                    Jira
+                                </li>
+                                                    </ul>
+                    </div>
+                            </div>
+        </div>
     </div>
 </section>
         <section class="mx-auto max-w-5xl px-6 pt-12 xs:pt-14 md:px-8 md:pt-16">
-    <div id="process" class="reveal scroll-mt-8 border-t border-line pt-8 xs:pt-10">
-        <h2 class="text-lg font-semibold text-ink xs:text-xl">How I work</h2>
+    <div id="process" class="reveal">
+        <h2 class="font-display text-xl font-bold text-ink xs:text-2xl md:text-[2rem]">How I work</h2>
 
-        <ol class="mt-5 grid gap-x-6 gap-y-6 xs:mt-7 xs:gap-y-7 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8">
-                            <li>
-                    <span class="font-mono text-xs text-faint xs:text-[13px]">01</span>
-                    <h3 class="mt-1.5 text-sm font-semibold text-ink xs:mt-2 xs:text-[15px]">Discovery</h3>
-                    <p class="mt-1.5 text-sm leading-6 text-mute xs:mt-2 xs:text-[15px] xs:leading-7">Understand business goals, user requirements, and technical constraints before implementation begins.</p>
+        <ol class="stagger mt-5 grid gap-4 xs:mt-7 sm:grid-cols-2 lg:grid-cols-4">
+                            <li class="rounded-[18px] bg-white p-5 shadow-[0_2px_10px_rgba(43,38,34,0.06)] xs:p-6">
+                    <span
+                        class="flex size-11 items-center justify-center rounded-full bg-[rgba(232,147,12,0.15)] font-display text-[17px] font-bold text-accent-deep"
+                        aria-hidden="true"
+                    >
+                        01
+                    </span>
+                    <h3 class="mt-4 font-display text-[17px] font-semibold text-ink xs:text-[19px]">Discovery</h3>
+                    <p class="mt-2 text-sm leading-6 text-mute xs:text-[15px] xs:leading-[1.6]">Understand business goals, user requirements, and technical constraints before implementation begins.</p>
                 </li>
-                            <li>
-                    <span class="font-mono text-xs text-faint xs:text-[13px]">02</span>
-                    <h3 class="mt-1.5 text-sm font-semibold text-ink xs:mt-2 xs:text-[15px]">Build</h3>
-                    <p class="mt-1.5 text-sm leading-6 text-mute xs:mt-2 xs:text-[15px] xs:leading-7">Turn requirements into reliable application features with clean architecture, maintainable code, and scalable foundations.</p>
+                            <li class="rounded-[18px] bg-white p-5 shadow-[0_2px_10px_rgba(43,38,34,0.06)] xs:p-6">
+                    <span
+                        class="flex size-11 items-center justify-center rounded-full bg-[rgba(232,147,12,0.15)] font-display text-[17px] font-bold text-accent-deep"
+                        aria-hidden="true"
+                    >
+                        02
+                    </span>
+                    <h3 class="mt-4 font-display text-[17px] font-semibold text-ink xs:text-[19px]">Build</h3>
+                    <p class="mt-2 text-sm leading-6 text-mute xs:text-[15px] xs:leading-[1.6]">Turn requirements into reliable application features with clean architecture, maintainable code, and scalable foundations.</p>
                 </li>
-                            <li>
-                    <span class="font-mono text-xs text-faint xs:text-[13px]">03</span>
-                    <h3 class="mt-1.5 text-sm font-semibold text-ink xs:mt-2 xs:text-[15px]">Refine</h3>
-                    <p class="mt-1.5 text-sm leading-6 text-mute xs:mt-2 xs:text-[15px] xs:leading-7">Test functionality, optimize performance, improve accessibility, and prepare the application for production.</p>
+                            <li class="rounded-[18px] bg-white p-5 shadow-[0_2px_10px_rgba(43,38,34,0.06)] xs:p-6">
+                    <span
+                        class="flex size-11 items-center justify-center rounded-full bg-[rgba(232,147,12,0.15)] font-display text-[17px] font-bold text-accent-deep"
+                        aria-hidden="true"
+                    >
+                        03
+                    </span>
+                    <h3 class="mt-4 font-display text-[17px] font-semibold text-ink xs:text-[19px]">Refine</h3>
+                    <p class="mt-2 text-sm leading-6 text-mute xs:text-[15px] xs:leading-[1.6]">Test functionality, optimize performance, improve accessibility, and prepare the application for production.</p>
                 </li>
-                            <li>
-                    <span class="font-mono text-xs text-faint xs:text-[13px]">04</span>
-                    <h3 class="mt-1.5 text-sm font-semibold text-ink xs:mt-2 xs:text-[15px]">Launch</h3>
-                    <p class="mt-1.5 text-sm leading-6 text-mute xs:mt-2 xs:text-[15px] xs:leading-7">Deploy, monitor, and support the application to ensure a smooth and reliable release.</p>
+                            <li class="rounded-[18px] bg-white p-5 shadow-[0_2px_10px_rgba(43,38,34,0.06)] xs:p-6">
+                    <span
+                        class="flex size-11 items-center justify-center rounded-full bg-[rgba(232,147,12,0.15)] font-display text-[17px] font-bold text-accent-deep"
+                        aria-hidden="true"
+                    >
+                        04
+                    </span>
+                    <h3 class="mt-4 font-display text-[17px] font-semibold text-ink xs:text-[19px]">Launch</h3>
+                    <p class="mt-2 text-sm leading-6 text-mute xs:text-[15px] xs:leading-[1.6]">Deploy, monitor, and support the application to ensure a smooth and reliable release.</p>
                 </li>
                     </ol>
     </div>
 </section>
         <section class="mx-auto max-w-5xl px-6 pt-12 xs:pt-14 md:px-8 md:pt-16">
-    <div id="contact" class="reveal scroll-mt-8 border-t border-line pt-8 xs:pt-10">
-        <h2 class="text-lg font-semibold text-ink xs:text-xl">Contact</h2>
+    <div id="contact" class="reveal stagger rounded-[22px] bg-ink px-6 py-10 text-center xs:px-10 xs:py-12 md:px-14 md:py-14">
+        <h2 class="mx-auto max-w-[720px] font-display text-2xl font-bold text-paper xs:text-3xl md:text-[2.875rem] md:leading-[1.1]" style="text-wrap: pretty">
+            Have a project in mind? Let's talk.
+        </h2>
 
-        <p class="mt-4 max-w-xl text-[15px] leading-7 text-mute xs:mt-5">Have a web application, platform, or internal tool in mind? Send me the details and I'll get back to you.</p>
+        <p class="mt-3.5 text-[15px] text-[rgba(244,244,244,0.6)] xs:text-base md:text-[17px]">Send me the details and I'll get back to you.</p>
 
         <a
             href="mailto:hello@aldyrosell.dev"
-            class="focus-soft mt-5 inline-flex min-h-9 items-center rounded-full bg-ink px-3.5 text-[13px] font-medium text-paper transition hover:bg-accent xs:px-4"
+            class="focus-soft mt-6 inline-flex min-h-11 items-center rounded-full bg-accent px-7 text-sm font-semibold text-ink transition hover:bg-[#d68609] xs:px-8 xs:text-[14.5px]"
         >
             hello@aldyrosell.dev
         </a>
@@ -1069,9 +1120,9 @@
 </section>
     </main>
 
-    <footer class="mt-12 border-t border-line xs:mt-14 md:mt-16">
+    <footer class="mt-7 xs:mt-8">
     <div
-        class="mx-auto flex max-w-5xl flex-col gap-2 px-6 py-7 text-[13px] text-faint sm:flex-row sm:items-center sm:justify-between md:px-8"
+        class="reveal stagger mx-auto flex max-w-5xl flex-col gap-2 px-6 pb-10 text-[13.5px] text-faint sm:flex-row sm:items-center sm:justify-between md:px-8"
     >
         <p>&copy; Aldy Rosell</p>
         <p>Philippines (GMT+8)</p>
@@ -1085,53 +1136,57 @@
 </button>
 
 <dialog class="project-gallery" data-project-gallery aria-labelledby="project-gallery-title">
+    
+    <button
+        class="focus-soft project-gallery-close"
+        type="button"
+        data-gallery-close
+        aria-label="Close project gallery"
+    >
+        <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M6 6l12 12" />
+            <path d="M18 6L6 18" />
+        </svg>
+    </button>
+
     <div class="project-gallery-shell">
-        <button
-            class="focus-soft project-gallery-close"
-            type="button"
-            data-gallery-close
-            aria-label="Close project gallery"
-        >
-            <svg aria-hidden="true" viewBox="0 0 24 24">
-                <path d="M6 6l12 12" />
-                <path d="M18 6L6 18" />
-            </svg>
-        </button>
-
-        <div class="project-gallery-actions" aria-label="Screenshot controls">
-            <button class="focus-soft" type="button" data-gallery-zoom-out aria-label="Zoom out">-</button>
-            <button class="focus-soft" type="button" data-gallery-zoom-in aria-label="Zoom in">+</button>
-        </div>
-
         <div class="project-gallery-viewer">
-            <button
-                class="focus-soft project-gallery-nav project-gallery-prev"
-                type="button"
-                data-gallery-prev
-                aria-label="Previous screenshot"
-            >
-                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6" /></svg>
-            </button>
+            
+            <div class="project-gallery-frame">
+                <div class="project-gallery-stage" data-gallery-stage>
+                    <img src="" alt="" data-image-gallery-image draggable="false" hidden />
+                    <div class="project-gallery-loader" data-gallery-loader role="status" hidden>
+                        <span aria-hidden="true"></span>
+                        <span class="sr-only">Loading screenshot</span>
+                    </div>
+                    <div class="project-gallery-fallback" data-project-gallery-fallback role="status">
+                        <p>No screenshots available for this project.</p>
+                    </div>
+                </div>
 
-            <div class="project-gallery-stage" data-gallery-stage>
-                <img src="" alt="" data-image-gallery-image draggable="false" hidden />
-                <div class="project-gallery-loader" data-gallery-loader role="status" hidden>
-                    <span aria-hidden="true"></span>
-                    <span class="sr-only">Loading screenshot</span>
+                <div class="project-gallery-actions" aria-label="Screenshot controls">
+                    <button class="focus-soft" type="button" data-gallery-zoom-out aria-label="Zoom out">-</button>
+                    <button class="focus-soft" type="button" data-gallery-zoom-in aria-label="Zoom in">+</button>
                 </div>
-                <div class="project-gallery-fallback" data-project-gallery-fallback role="status">
-                    <p>No screenshots available for this project.</p>
-                </div>
+
+                <button
+                    class="focus-soft project-gallery-nav project-gallery-prev"
+                    type="button"
+                    data-gallery-prev
+                    aria-label="Previous screenshot"
+                >
+                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6" /></svg>
+                </button>
+
+                <button
+                    class="focus-soft project-gallery-nav project-gallery-next"
+                    type="button"
+                    data-gallery-next
+                    aria-label="Next screenshot"
+                >
+                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" /></svg>
+                </button>
             </div>
-
-            <button
-                class="focus-soft project-gallery-nav project-gallery-next"
-                type="button"
-                data-gallery-next
-                aria-label="Next screenshot"
-            >
-                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" /></svg>
-            </button>
 
             <div class="project-gallery-strip" data-project-gallery-strip aria-label="Project screenshots"></div>
         </div>
@@ -1150,9 +1205,28 @@
                     <div class="project-gallery-stack" data-project-gallery-stack></div>
                 </div>
             </div>
+
+            <div class="project-gallery-siblings" data-project-gallery-siblings hidden>
+                <span class="project-gallery-sibling-label">Next project</span>
+                <button class="focus-soft project-gallery-sibling" type="button" data-project-gallery-sibling>
+                    <img alt="" data-sibling-image hidden />
+                    <span
+                        class="project-gallery-sibling-fallback"
+                        data-sibling-fallback
+                        aria-hidden="true"
+                        hidden
+                    ></span>
+                    <span class="project-gallery-sibling-text">
+                        <span class="project-gallery-sibling-title" data-sibling-title></span>
+                        <span class="project-gallery-sibling-company" data-sibling-company></span>
+                        <span class="project-gallery-sibling-role" data-sibling-role></span>
+                    </span>
+                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" /></svg>
+                </button>
+            </div>
         </aside>
     </div>
 </dialog>
-    <script defer src="assets/app-BuGsExkG.js"></script>
+    <script defer src="assets/app-Bipnfv0j.js"></script>
 </body>
 </html>
